@@ -5,8 +5,19 @@ description: >- # this means to ignore newlines until "baseurl:"
   Learn how to make Hawaiian Pizza and find the world's best Hawaiian Pizza near you.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.hawaiianpizza.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
-permalink: /:path
+permalink: /:title
 image: /assets/images/hawaiianpizza-default-image.jpg
+favicon: /assets/images/favicon.ico
+tagline: The world's best pizza
+lang: en_US
+twitter:
+#  username: 
+  card: summary_large_image
+social:
+  name: Hawaiian Pizza
+  links:
+    - https://www.hawaiianpizza.co.uk
+gtm: G-MLRDXBXMCM
 
 # build settings
 markdown: kramdown
@@ -16,26 +27,6 @@ plugins:
  - jekyll-sitemap
 exclude:
  - Gemfile.lock
-
-# jekyll-seo-tag config
-twitter:
-#  username: hawaiianpizza
-#  card: summary_large_image
-#facebook:
-  # app_id: 1234
-  #publisher: 1234
-  #admins: 1234
-social:
-  name: Hawaiian Pizza
-  links:
-    - https://www.hawaiianpizza.co.uk
-#webmaster_verifications:
-  #google: 1234
-  #bing: 1234
-  #alexa: 1234
-  #yandex: 1234
-  #baidu: 1234
-gtm: G-MLRDXBXMCM
 
 # site defaults 
 defaults:
